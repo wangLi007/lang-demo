@@ -1,0 +1,12 @@
+{
+  "name": "crowdin",
+  "version": "1.0.0",
+  "description": "lang",
+  "main": "index.js",
+  "scripts": {
+    "upload": "crowdin upload sources",
+    "download": "crowdin download"
+  },
+  "author": "",
+  "license": "ISC"
+}

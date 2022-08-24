@@ -1,0 +1,24 @@
+#
+# Your Crowdin credentials
+#
+'project_id': '530826'
+'api_token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJ3UUVxdmhVM3ZMT2EyWGljbVV5VCIsImp0aSI6IjA5NjMzOTRlMGZmNzY3ZDc3MDViMjYwMWIyZmE3NjZjMGNlZmY4NmEwN2ZlZGI3YmJmYjViNGJkYTg1YzE1YTc0ZWYzNDQwMzU5NTE1NTc4IiwiaWF0IjoxNjU5Njg4Nzk3LCJuYmYiOjE2NTk2ODg3OTcsImV4cCI6MTY2MjI4MDc5Nywic3ViIjoiMTUzODk0NjgiLCJkb21haW4iOm51bGwsInNjb3BlcyI6WyJwcm9qZWN0Il0sImFzc29jaWF0aW9ucyI6WyIqIl0sInNlc3Npb24iOjB9.aeeg-WfNzn3wT0S0K6ym7k4Z-B8HMI0hz7FPkVPQdCJnA1Obv8EXiWDbZuddTBVrAFby6e-1vPu9vGATE-_V5qSuho91A89FhbpTU1bULN292OGs0cjbioTFI4S78h-9kbTeao5fpq4aXeMNC834AsSRrRIwIPHVPGfnCjEW9J4HY2T5-xVc1r-KZa80JlrUPKuXgRRDb643E5rlO1kKoO_qY0lP_SzW0ppZsrCs0yJq4hosUb7YGCQminNVXipNulhrnV42yH3mzyPJPaaDiVdNarrqh6Dqss-BpaPUpjplr9G_99NkXiuBEAGxsictRwluesFf_UP1Dy8mQNQD6CNM6qDD5r4onGlRbWG7omTGoNu-NgAqzSTZJhpddoQwy6WMAJ_H2U57TcGCaqUIJNWzwdOL62eIcSiisaLp3cSOy6bf-Y7bK1PVfjuqFa9dtlCfpnizms4xuZhJNwHUY3LKaZ07VsDMo54cwITFRVUhiNciTCbgmJr1pvB1bBpd9F9vrP2-pFzvs5hhEB8WmMji7dcZZQvgvjdJi_my9MYzBjk5q4HYept5RU5pizfqQn1dvUYSXSNUy7lYv_3jsRQj6T9SZ-8ugoEkeUkZ4sv9SKx-DlIQc-mI4fLln4YK4bszdM55sdHEI9VmSdh6kqca0cBro4yrv80Ae-FKdAY'
+'base_path': '.'
+'base_url': 'https://api.crowdin.com'
+
+#
+# Choose file structure in Crowdin
+# e.g. true or false
+#
+'preserve_hierarchy': true
+
+'files': [
+    # {
+    #   'source': '/locales/*.js', #source files filter  源文件
+    #   'translation': "/result/%osx_locale%/%original_file_name%", #where translations are stored  存储翻译的地方
+    # }
+    {
+      'source': '/locales/**/*.js',
+      'translation': '/translations/%two_letters_code%/%original_file_name%',
+    },
+  ]
